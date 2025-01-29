@@ -30,7 +30,6 @@ public class Character {
     public void swingsword(){
         if(this.stamina - 10 < 0){
             System.out.println("Your character needs to cool down.");
-            this.stamina = 0;
         }else{
             this.stamina = this.stamina - 10;
             System.out.printf("Character swings sword. Stamina is now %d.\n",this.stamina);
